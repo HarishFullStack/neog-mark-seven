@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+:root {
+    --primary-color: #F9A826;
+    --off-white: #f3f4f6;
+    --dark-gray: #64748b;
+}
+
+* {
+    font-family: 'DynaPuff', cursive;
+}
+
+body {
+    text-align: center;
+    font-family: 'DynaPuff', cursive;
+    background-color: var(--primary-color);
+
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+    row-gap: 0.8rem;
+}
+
+textarea {
+    border-radius: 9px;
+    border-color: var(--primary-lack);
+    border-width: medium;
+    background-color: rgb(237, 236, 236);
+    outline: none;
+    height: 10rem;
+    width: 500px;
+}
+
+#output {
+    border: 1px solid black;
+    border-radius: 9px;
+    border-width: medium;
+    background-color: rgb(237, 236, 236);
+    outline: none;
+    height: 10rem;
+    width: 500px;
+    text-align: center;
+}
+
+#btn-translate {
+    padding: 1rem 2rem;
+    width: max-content;
+    font-weight: 700;
+    font-size: small;
+    border-radius: 7px;
+    border-color: var(--primary-lack);
+    margin: 1rem;
+    outline: none;
+
+}
+
+img {
+    border-radius: 50%;
+}
